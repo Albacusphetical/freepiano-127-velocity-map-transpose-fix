@@ -1,0 +1,162 @@
+FreePiano 2.2
+
+GroupCount	2
+Group	Set	0
+KeySignature	Set	0
+Sustain	Out_0	Set	127
+Keydown	F5	Record
+Keydown	1	Note	In_0	C2
+Label	1	1
+Keydown	2	Note	In_0	D2
+Label	2	2
+Keydown	3	Note	In_0	E2
+Label	3	3
+Keydown	4	Note	In_0	F2
+Label	4	4
+Keydown	5	Note	In_0	G2
+Label	5	5
+Keydown	6	Note	In_0	A2
+Label	6	6
+Keydown	7	Note	In_0	B2
+Label	7	7
+Keydown	8	Note	In_0	C3
+Label	8	8
+Keydown	9	Note	In_0	D3
+Label	9	9
+Keydown	0	Note	In_0	E3
+Label	0	0
+Keydown	Q	Note	In_0	F3
+Label	Q	Q
+Keydown	W	Note	In_0	G3
+Label	W	W
+Keydown	E	Note	In_0	A3
+Label	E	E
+Keydown	R	Note	In_0	B3
+Label	R	R
+Keydown	T	Note	In_0	C4
+Label	T	T
+Keydown	Y	Note	In_0	D4
+Label	Y	Y
+Keydown	U	Note	In_0	E4
+Label	U	U
+Keydown	I	Note	In_0	F4
+Label	I	I
+Keydown	O	Note	In_0	G4
+Label	O	O
+Keydown	P	Note	In_0	A4
+Label	P	P
+Keydown	A	Note	In_0	B4
+Label	A	A
+Keydown	S	Note	In_0	C5
+Label	S	S
+Keydown	D	Note	In_0	D5
+Label	D	D
+Keydown	F	Note	In_0	E5
+Label	F	F
+Keydown	G	Note	In_0	F5
+Label	G	G
+Keydown	H	Note	In_0	G5
+Label	H	H
+Keydown	J	Note	In_0	A5
+Label	J	J
+Keydown	K	Note	In_0	B5
+Label	K	K
+Keydown	L	Note	In_0	C6
+Label	L	L
+Keydown	Shift	KeySignature	Inc	1
+Keyup	Shift	KeySignature	Dec	1
+Label	Shift	Shift
+Keydown	Z	Note	In_0	D6
+Label	Z	Z
+Keydown	X	Note	In_0	E6
+Label	X	X
+Keydown	C	Note	In_0	F6
+Label	C	C
+Keydown	V	Note	In_0	G6
+Label	V	V
+Keydown	B	Note	In_0	A6
+Label	B	B
+Keydown	N	Note	In_0	B6
+Label	N	N
+Keydown	M	Note	In_0	C7
+Label	M	M
+Keydown	RShift	KeySignature	Inc	1
+Keyup	RShift	KeySignature	Dec	1
+Label	RShift	Shift
+Keydown	Ctrl	Group	Set	1
+Keyup	Ctrl	Group	Set	0
+Keydown	Space	Sustain	In_1	Flip	127
+Keyup	Space	Sustain	In_1	Flip	127
+Label	Space	VP
+Keydown	Up	Transpose	In_0	Inc	1
+Keydown	Up	Group	Set	1
+Keydown	Up	Transpose	In_0	Inc	1
+Keydown	Up	Group	Set	0
+Keydown	Down	Transpose	In_0	Dec	1
+Keydown	Down	Group	Set	1
+Keydown	Down	Transpose	In_0	Dec	1
+Keydown	Down	Group	Set	0
+Group	Set	1
+Keydown	Up	Transpose	In_0	Inc	1
+Keydown	Up	Group	Set	0
+Keydown	Up	Transpose	In_0	Inc	1
+Keydown	Up	Group	Set	1
+Keydown	Down	Transpose	In_0	Dec	1
+Keydown	Down	Group	Set	0
+Keydown	Down	Transpose	In_0	Dec	1
+Keydown	Down	Group	Set	1
+KeySignature	Set	0
+Keydown	1	Note	In_0	A0
+Label	1	1
+Keydown	2	Note	In_0	A#0
+Label	2	2
+Keydown	3	Note	In_0	B0
+Label	3	3
+Keydown	4	Note	In_0	C1
+Label	4	4
+Keydown	5	Note	In_0	C#1
+Label	5	5
+Keydown	6	Note	In_0	D1
+Label	6	6
+Keydown	7	Note	In_0	D#1
+Label	7	7
+Keydown	8	Note	In_0	E1
+Label	8	8
+Keydown	9	Note	In_0	F1
+Label	9	9
+Keydown	0	Note	In_0	F#1
+Label	0	0
+Keydown	Q	Note	In_0	G1
+Label	Q	q
+Keydown	W	Note	In_0	G#1
+Label	W	w
+Keydown	E	Note	In_0	A1
+Label	E	e
+Keydown	R	Note	In_0	A#1
+Label	R	r
+Keydown	T	Note	In_0	B1
+Label	T	t
+Keydown	Y	Note	In_0	C#7
+Label	Y	y
+Keydown	U	Note	In_0	D7
+Label	U	u
+Keydown	I	Note	In_0	D#7
+Label	I	i
+Keydown	O	Note	In_0	E7
+Label	O	o
+Keydown	P	Note	In_0	F7
+Label	P	p
+Keydown	A	Note	In_0	F#7
+Label	A	a
+Keydown	S	Note	In_0	G7
+Label	S	s
+Keydown	D	Note	In_0	G#7
+Label	D	d
+Keydown	F	Note	In_0	A7
+Label	F	f
+Keydown	G	Note	In_0	A#7
+Label	G	g
+Keydown	H	Note	In_0	B7
+Label	H	h
+Keydown	J	Note	In_0	C8
+Label	J	j
